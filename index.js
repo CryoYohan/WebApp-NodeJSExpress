@@ -22,7 +22,7 @@ app.post('/items', (req,res) =>{
 
  // Define a router 
  app.get('/',(req,res)=>{
-    res.send('Hello world!')
+    res.send('Hello world!');
  });
 
  // GET REQUEST
